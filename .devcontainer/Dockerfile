@@ -19,7 +19,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 RUN ln -s /usr/bin/pypy3 /usr/local/bin/pypy
 RUN curl -o /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
 RUN /usr/bin/pypy3 /tmp/get-pip.py
-RUN /usr/bin/pypy3 -m pip install ipython
 
 # [Optional] Uncomment this line to install global node packages.
 # RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g <your-package-here>" 2>&1
