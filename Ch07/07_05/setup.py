@@ -1,5 +1,5 @@
 """Setup script for csqrt.c"""
-from distutils.core import setup, Extension
+from setuptools import setup, Extension
 
 setup(
    name='csqrt',

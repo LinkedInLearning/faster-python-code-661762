@@ -9,4 +9,5 @@ numpy ~= 1.26
 pytest-benchmark ~= 4.0
 python-levenshtein ~= 0.25
 scipy ~= 1.13
+setuptools ~= 69.2
 snakeviz ~= 2.2

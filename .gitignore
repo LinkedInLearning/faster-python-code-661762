@@ -3,7 +3,6 @@ node_modules
 .tmp
 npm-debug.log
 
-*.c
 *.dat
 *.lprof
 *.out
@@ -12,3 +11,4 @@ npm-debug.log
 .pytest_cache
 __pycache__
 build
+cysqrt.c
