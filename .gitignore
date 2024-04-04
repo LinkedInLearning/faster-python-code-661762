@@ -12,3 +12,4 @@ npm-debug.log
 __pycache__
 build
 cysqrt.c
+pypy-env

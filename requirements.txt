@@ -11,3 +11,6 @@ python-levenshtein ~= 0.25
 scipy ~= 1.13
 setuptools ~= 69.2
 snakeviz ~= 2.2
+
+# For installing pypy's IPython
+virtualenv ~= 20.25

@@ -22,9 +22,21 @@ To resolve this issue:
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+	- Python
+    - pypy3
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+3. Create a virtual environment and install dependencies
+    - `python -m venv venv`
+    - `./venv/bin/python -m pip install -r requirements.txt`
+    - Point your IDE to use the Python from `./venv/bin/python`
+
+## pypy On Codespaces
+
+`pypy` is installed in the codespace. If you want to run it with IPython, use the following command:  
+
+```
+~/pypy3-env/bin/ipython
+```
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
